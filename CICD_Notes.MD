@@ -51,3 +51,15 @@ __ think about all these options for deployment strategies
 - but they cost more because there are more machines running than there would be in production
 - There also needs to be an Approval process
 - There has to be a rollback plan in all the deployment strategies
+
+### Terraform
+- also, Pulumi is an option
+- Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently
+- define infrastructure as code
+- Terraform can manage existing and popular service providers as well as custom in-house solutions
+- Terraform can manage the front end and the back end
+- The region is the location of the data center
+- The Terraform state will have to be stored someplace, often in an S3 bucket
+- We will use an AMI to create an EC2 instance that tells Terraform what type and flavor the VM will be
+- Terraform will create a security group, which is a firewall rule
+-
